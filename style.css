@@ -170,13 +170,12 @@ footer{
     margin: 0;
 }
 .footer-section{
-    background-color: #fff8f8;
+    background-color: #FFFFFF;
     max-width: 1440px;
     height: 428px;
     gap: 30px;
     padding: 118px 455px 0px;
     text-align: center;
-    fill: #FFFFFF;
 }
 .footer-logo{
     color: rgba(78, 71, 255, 1);
@@ -205,4 +204,8 @@ footer{
     justify-content: center;
     gap: 48px;
     padding: 0px;
+}
+/* bg color change */
+.main-content{
+    background-color: rgb(245, 248, 255);
 }
