@@ -16,7 +16,13 @@
   border: none;
   border-radius: 10px;
   padding: 12px 36px;
-
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: chocolate;
+    transform: scale(1.05);
+    box-shadow: #ffd7d7;
 }
 .title-font{
   font-family: "Raleway", sans-serif;
