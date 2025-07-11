@@ -118,3 +118,54 @@ nav{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+/* footer Section */
+footer{
+    margin: 0;
+}
+/* contact */
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 150px;
+    gap: 100px;
+}
+.touch-left h2{
+    font-size: 97px;
+    color: #000000;
+    line-height: 120%;
+    margin: 0px 215px 200px 150px;
+    padding-top: 200px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+    gap: 19px;
+    padding-right: 150px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 490px;
+}
+.contact-form label {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 20px 32px;
+  margin-bottom: 19px;
+  border: 1px solid #D6DDED;
+  border-radius: 10px;
+  font-size: 20px;
+  resize: none;
+}
+.contact-form textarea {
+  height: 135px;
+  color: rgba(0, 0, 0, 0.5);
+}
